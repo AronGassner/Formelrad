@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f443b2d-a83b-4a0c-9daa-f3f1c68ae80a" name="Default Changelist" comment="" />
+    <list default="true" id="3f443b2d-a83b-4a0c-9daa-f3f1c68ae80a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,17 +41,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -60,6 +51,8 @@
       <option name="presentableId" value="Default" />
       <updated>1617788472307</updated>
       <workItem from="1617788474523" duration="123000" />
+      <workItem from="1617789071145" duration="10000" />
+      <workItem from="1617789139679" duration="35000" />
     </task>
     <servers />
   </component>
@@ -67,14 +60,18 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="194" y="19" width="1086" height="736" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617788557034">
+    <state x="194" y="0" width="1086" height="760" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617789155865">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="194" y="19" width="1086" height="736" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1617788557034" />
-    <state x="485" y="178" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1617788554829">
+    <state x="194" y="0" width="1086" height="760" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1617789155865" />
+    <state x="485" y="178" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1617789154573">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="485" y="178" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.760@0.0.1280.760" timestamp="1617788554829" />
+    <state x="485" y="178" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.760@0.0.1280.760" timestamp="1617789154573" />
+    <state x="422" y="136" key="FileChooserDialogImpl" timestamp="1617789166253">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="422" y="136" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1617789166253" />
     <state width="1237" height="189" key="GridCell.Tab.0.bottom" timestamp="1617788597175">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
