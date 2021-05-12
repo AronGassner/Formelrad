@@ -49,14 +49,14 @@ public class Calculator {
 		 */
 	}
 	
-	public double pAusUundI (double u, double i) {
-		return u*i;
+	public double iAusPundR (double p, double r) {
+		return Math.sqrt(p/r);
 	}
-	public double pAusRundI (double r, double i) {
-		return r*i*i;
+	public double iAusPundU (double p, double u) {
+		return p/u;
 	}
-	public double pAusUundR (double u, double r) {
-		return u*u/r;
+	public double iAusUundR (double u, double r) {
+		return u/r;
 	}
 	
 }
