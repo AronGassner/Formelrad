@@ -53,7 +53,16 @@ public class Calculator {
 		if (spannung > 0 && widerstand > 0) {
 			leistung = pAusUundR(spannung, widerstand);
 		}
-		
+
+		if (widerstand > 0 && strom > 0) {
+			spannung = uAusRundI(widerstand, strom);
+		}
+		if (leistung > 0 && strom > 0) {
+			spannung = uAusPundI(leistung, strom);
+		}
+		if (leistung > 0 && widerstand > 0) {
+			spannung = uAusPundR(spannung, widerstand);
+		}
 	}
 
 	public double pAusUundI (double u, double i) {
