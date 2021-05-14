@@ -44,9 +44,16 @@ public class Calculator {
 	}
 
 	public void calculate() {
-		/* Hier auf Grund der vorhanden Werte entscheiden
-		 * welche Methode unten aufgerufen werden muss.
-		 */
+		if (spannung > 0 && strom > 0) {
+			leistung = pAusUundI(spannung, strom);
+		}
+		if (widerstand > 0 && strom > 0) {
+			leistung = pAusRundI(widerstand, strom);
+		}
+		if (spannung > 0 && widerstand > 0) {
+			leistung = pAusUundR(spannung, widerstand);
+		}
+		
 	}
 
 	public double pAusUundI (double u, double i) {
