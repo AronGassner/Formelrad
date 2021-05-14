@@ -48,25 +48,9 @@ public class Calculator {
 		 * welche Methode unten aufgerufen werden muss.
 		 */
 	}
-	
+
 	public double iAusPundR (double p, double r) {
 		return Math.sqrt(p/r);
-	}
-	public double iAusPundU (double p, double u) {
-		return p/u;
-	}
-	public double iAusUundR (double u, double r) {
-		return u/r;
-	}
-
-	public double uAusRundI (double r, double i) {
-		return r*i;
-	}
-	public double uAusPundI (double p, double i) {
-		return p/i;
-	}
-	public double uAusPundR (double p, double r) {
-		return Math.sqrt(p*r);
 	}
 
 }
